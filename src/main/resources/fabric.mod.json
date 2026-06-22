@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "halei-mod",
+	"version": "${version}",
+	"name": "Wallpaper Engine 壁纸引擎",
+	"description": "在游戏主菜单显示精美壁纸，挂机时自动淡入壁纸叠加层。将壁纸图片放入 config/wallpaper 文件夹即可使用！",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/halei-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.halei.HaleiMod"
+		],
+		"client": [
+			"com.example.halei.client.HaleiModClient"
+		]
+	},
+	"mixins": [
+		"halei-mod.mixins.json",
+		{
+			"config": "halei-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

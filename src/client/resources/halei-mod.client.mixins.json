@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "com.example.halei.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"TitleScreenMixin",
+		"HudRenderMixin",
+		"InputMixin",
+		"KeyboardInputMixin",
+		"TitleScreenInvoker",
+		"ScreenBackgroundMixin",
+		"ScreenAccessor",
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

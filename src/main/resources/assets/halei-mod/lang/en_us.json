@@ -1,0 +1,9 @@
+{
+  "category.halei-mod": "Wallpaper Engine",
+  "key.halei-mod.select_wallpaper": "Open Wallpaper Selector (K)",
+  "screen.halei-mod.select_wallpaper": "Wallpaper Selector",
+  "screen.halei-mod.select": "Select",
+  "screen.halei-mod.hint": "Click to select wallpaper, Esc to close",
+  "options.halei-mod.inGameKKey": "In-Game K Key: %s",
+  "options.halei-mod.inGameKKey.tooltip": "When enabled, pressing K in-game opens the wallpaper selector"
+}

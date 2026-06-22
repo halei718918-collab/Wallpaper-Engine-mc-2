@@ -1,0 +1,10 @@
+{
+  "category.halei-mod": "Wallpaper Engine 壁纸引擎",
+  "key.halei-mod.select_wallpaper": "打开壁纸选择 (K)",
+  "screen.halei-mod.select_wallpaper": "壁纸选择",
+  "screen.halei-mod.select": "选择",
+  "screen.halei-mod.hint": "点击选择壁纸，按 Esc 关闭",
+  "options.halei-mod.inGameKKey": "游戏内按 K 打开壁纸：%s",
+  "options.halei-mod.wallpaperEngine": "壁纸引擎",
+  "options.halei-mod.inGameKKey.tooltip": "开启后，在游戏中按 K 键可打开壁纸选择界面"
+}
